@@ -76,6 +76,8 @@ Note: Any application you deploy in Docker Swarm is called a **Service**. A serv
 
 2. To create a service with a number of replicas, say 5 replicas, you run the command as follows: `docker service create --name redis --replicas=5 redis:3.0.6`
 
+Another example showing port mapping: docker service create --name nginx --replicas 3 -p 80:80 nginx
+
 3. Once the service is created, the underlying containers would be automatically distributed to the nodes in the docker swarm
 
 4. Once the service is created, try accessing the service from the Master IP as well as the IPs of the Slaves
