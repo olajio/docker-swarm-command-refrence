@@ -34,4 +34,4 @@ Manage the swarm.
 | docker swarm unlock-key |	Manage the unlock key |
 | docker swarm update | Update the swarm |
 
-Please see [official docker swarm reference](https://docs.docker.com/engine/reference/commandline/swarm/) for the updated and lates docker swarm reference
+Please see [official docker swarm reference](https://docs.docker.com/engine/reference/commandline/swarm/) for the updated and latest docker swarm reference
